@@ -1,0 +1,16 @@
+﻿  glad.c
+  Camera.cpp
+  Geometry.cpp
+  main.cpp
+  Program.cpp
+  RenderingEngine.cpp
+  Scene.cpp
+C:\Users\sijie\Documents\CPSC 453\Virtual-orrery\RefactoredBoilerplate\RenderingEngine.cpp(66,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\sijie\Documents\CPSC 453\Virtual-orrery\RefactoredBoilerplate\Scene.cpp(33,88): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\sijie\Documents\CPSC 453\Virtual-orrery\RefactoredBoilerplate\Scene.cpp(39,89): warning C4305:  'argument': truncation from 'double' to 'float'
+  ShaderTools.cpp
+  Texture.cpp
+  Generating Code...
+C:\Users\sijie\Documents\CPSC 453\Virtual-orrery\RefactoredBoilerplate\Scene.cpp(88,21): warning C4018:  '<': signed/unsigned mismatch
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  RefactoredBoilerplate.vcxproj -> C:\Users\sijie\Documents\CPSC 453\Virtual-orrery\Debug\RefactoredBoilerplate.exe

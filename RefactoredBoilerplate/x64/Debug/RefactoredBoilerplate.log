@@ -1,0 +1,34 @@
+﻿  glad.c
+  Camera.cpp
+  Geometry.cpp
+  main.cpp
+  Program.cpp
+  RenderingEngine.cpp
+  Scene.cpp
+C:\Users\sijie\Documents\CPSC 453\Virtual-orrery\RefactoredBoilerplate\RenderingEngine.cpp(89,63): warning C4267:  'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\sijie\Documents\CPSC 453\Virtual-orrery\RefactoredBoilerplate\Scene.cpp(33,88): warning C4305:  'argument': truncation from 'double' to 'float'
+  ShaderTools.cpp
+C:\Users\sijie\Documents\CPSC 453\Virtual-orrery\RefactoredBoilerplate\Scene.cpp(39,89): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\sijie\Documents\CPSC 453\Virtual-orrery\RefactoredBoilerplate\ShaderTools.cpp(53,68): warning C4267:  'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Texture.cpp
+  Generating Code...
+C:\Users\sijie\Documents\CPSC 453\Virtual-orrery\RefactoredBoilerplate\ShaderTools.cpp(81,70): warning C4267:  'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+Program.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "public: void __cdecl Program::setupWindow(void)" (?setupWindow@Program@@QEAAXXZ)
+Program.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "public: void __cdecl Program::setupWindow(void)" (?setupWindow@Program@@QEAAXXZ)
+Program.obj : error LNK2019: unresolved external symbol glfwSetErrorCallback referenced in function "public: void __cdecl Program::setupWindow(void)" (?setupWindow@Program@@QEAAXXZ)
+Program.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "public: void __cdecl Program::setupWindow(void)" (?setupWindow@Program@@QEAAXXZ)
+Program.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "public: void __cdecl Program::setupWindow(void)" (?setupWindow@Program@@QEAAXXZ)
+Program.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "public: void __cdecl Program::start(void)" (?start@Program@@QEAAXXZ)
+Program.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl KeyCallback(struct GLFWwindow *,int,int,int,int)" (?KeyCallback@@YAXPEAUGLFWwindow@@HHHH@Z)
+Program.obj : error LNK2019: unresolved external symbol glfwSetWindowUserPointer referenced in function "public: void __cdecl Program::setupWindow(void)" (?setupWindow@Program@@QEAAXXZ)
+Program.obj : error LNK2019: unresolved external symbol glfwGetWindowUserPointer referenced in function "void __cdecl KeyCallback(struct GLFWwindow *,int,int,int,int)" (?KeyCallback@@YAXPEAUGLFWwindow@@HHHH@Z)
+Program.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function "public: void __cdecl Program::start(void)" (?start@Program@@QEAAXXZ)
+Program.obj : error LNK2019: unresolved external symbol glfwGetCursorPos referenced in function "void __cdecl mouse_callback(struct GLFWwindow *,int,int,int)" (?mouse_callback@@YAXPEAUGLFWwindow@@HHH@Z)
+Program.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function "public: void __cdecl Program::setupWindow(void)" (?setupWindow@Program@@QEAAXXZ)
+Program.obj : error LNK2019: unresolved external symbol glfwSetMouseButtonCallback referenced in function "public: void __cdecl Program::setupWindow(void)" (?setupWindow@Program@@QEAAXXZ)
+Program.obj : error LNK2019: unresolved external symbol glfwSetScrollCallback referenced in function "public: void __cdecl Program::setupWindow(void)" (?setupWindow@Program@@QEAAXXZ)
+Program.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "public: void __cdecl Program::setupWindow(void)" (?setupWindow@Program@@QEAAXXZ)
+Program.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "public: void __cdecl Program::start(void)" (?start@Program@@QEAAXXZ)
+RenderingEngine.obj : error LNK2019: unresolved external symbol glfwGetWindowSize referenced in function "public: void __cdecl RenderingEngine::RenderScene(class std::vector<class Geometry,class std::allocator<class Geometry> > &,struct GLFWwindow *,class Camera *)" (?RenderScene@RenderingEngine@@QEAAXAEAV?$vector@VGeometry@@V?$allocator@VGeometry@@@std@@@std@@PEAUGLFWwindow@@PEAVCamera@@@Z)
+C:\Users\sijie\Documents\CPSC 453\Virtual-orrery\RefactoredBoilerplate\\..\middleware\glfw\lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\sijie\Documents\CPSC 453\Virtual-orrery\x64\Debug\RefactoredBoilerplate.exe : fatal error LNK1120: 17 unresolved externals
